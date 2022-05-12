@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.pl-0{
+    padding-left: 0px;
+}
+
+.pr-0{
+    padding-right: 0px;
+}
+
+.btn{
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+}
+
+/* Banner Section */
+
+.nav-link{
+    padding-top: 15px;
+    font-size: 13px;
+    color: #262626;
+}
+
+.banner .banner_bg {
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWKHu9?ver=19af&q=0&m=8&h=472&w=1259&b=%23FFFFFFFF&l=f&x=0&y=231&s=3000&d=1125&aim=true);
+    background-size: cover;
+    height: 500px;
+}
+
+.banner .logo{
+    width: 108px;
+}
+
+.banner .cnt{
+    padding: 80px;
+}
+
+.banner .cnt .new{
+    background: #ffb900;
+    color: #000000;
+    padding: 5px 10px;
+    width: 55px;
+    font-weight: 400;
+}
+
+.banner .cnt h1{
+    font-size: 34px ;
+}
+
+.banner .cnt p{
+    font-size: 15px ;
+    font-weight: 300;
+}
+
+
+/* primaryArea */
+.primaryArea{
+    padding: 50px 0;
+    text-align: center;
+}
+.primaryArea i{
+    font-size: 40px;
+}
+
+.primaryArea p{
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* Products */
+.Products{
+    padding: 0px 0 48px;
+}
+
+.Products img{
+    width: 100%;
+}
+
+.Products h5{
+    padding-top: 40px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.Products p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+
+}
+
+.Products a{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.Products a i{
+    padding-left: 5px;
+}
+
+/* Microsoft Edge */
+.m_edge{
+    padding-bottom: 50px;
+}
+
+.m_edge .m_edge_bg{
+    background-image: url(../img/bg.jpg);
+    filter: brightness(1.1);
+    background-size: cover;
+    height: 500px;
+}
+ 
+.m_edge .m_edge_bg h1{
+    padding-top: 100px;
+}
+
+/* product section 2 */
+.Products h4{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 15px!important;
+    margin: 0;
+}
+
+.Products .new{
+    float: left;
+    font-size: 11px;
+    margin: 10px 0 0 0;
+    background: #ffd800;
+    color: #000;
+    width: auto;
+    height: auto;
+    padding: 3px 10px;
+}
+
+/* Footer */
+
+footer{
+    padding: 46px 0 16px;
+    background-color: #f2f2f2;
+}
+
+footer h5{
+    color: #616161;
+    font-size: 15px;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 11px;
+    color: #616161;
+    padding: 8px 0;
+}
+
+footer .foot_copy{
+    font-size: 12px;
+    color: #616161;
+    padding-top: 25px;
+}
+
+footer .foot_copy i{
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+
+footer .foot_copy ul{
+    display: inline-flex;
+}
+
+footer .foot_copy ul li{
+    padding-right: 15px;
+}
