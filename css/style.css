@@ -26,9 +26,17 @@ body{
 }
 
 /* Banner Section */
+.navbar-nav .login{
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 50%;
+}
+
+.nav-item {
+    padding: 0 5px;
+}
 
 .nav-link{
-    padding-top: 15px;
+    padding-top: 11px;
     font-size: 13px;
     color: #262626;
 }
